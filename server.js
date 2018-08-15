@@ -17,7 +17,7 @@ app.get("/clientes/:idcliente", function(req, res) {
 })
 
 app.post("/", function(req, res) {
-  res.send("Hemos recibido su petición");
+  res.send("Hemos recibido su petición actualizada");
 })
 
 app.put("/", function(req, res) {
