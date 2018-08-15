@@ -15,7 +15,7 @@ app.get("/clientes/:id", function(req, res){
 })
 
 app.post("/", function(req, res){
-	res.send("Hemos recibido tu petición");
+	res.send("Hemos recibido tu petición POST");
 });
 
 app.put("/",function(req,res){
